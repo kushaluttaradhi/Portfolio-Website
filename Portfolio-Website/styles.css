@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #eaeaea;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    padding: 30px 40px;
+    border-bottom: 1px solid #111;
+}
+
+/* Layout */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-content img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+    filter: grayscale(100%) contrast(110%);
+}
+.header-content img:hover {
+    filter: grayscale(0%) contrast(110%);
+    transition: 0.3s;
+}
+
+/* Name */
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 13px;
+    color: #888;
+    letter-spacing: 0.5px;
+}
+
+/* Nav */
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    margin-right: 18px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #666;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Sections */
+section {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+/* Section titles */
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-left: 2px solid #333;
+    padding-left: 10px;
+}
+
+/* Articles */
+article {
+    margin-top: 20px;
+    padding: 14px;
+    border: 1px solid #111;
+    background: #050505;
+}
+
+/* Sub headings */
+h3 {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+/* Text */
+p {
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+/* Lists */
+ul {
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+li {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #9a9a9a;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    font-size: 12px;
+    color: #aaa;
+    border-bottom: 1px solid #222;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 12px;
+    padding: 8px;
+    border-bottom: 1px solid #111;
+    color: #888;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 11px;
+    color: #555;
+    letter-spacing: 1px;
+}
